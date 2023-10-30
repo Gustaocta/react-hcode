@@ -1,0 +1,24 @@
+.player .timeline {
+    width: 300px;
+    height: 5px;
+    background: #727272;
+    justify-content: start;
+    border-radius: 20px;
+    margin: 0 5%;
+}
+
+.player .progress {
+    width: 40%;
+    height: 5px;
+    background: #F4F4F4;
+    border-radius: 20px;
+    
+}
+
+.player .progress:hover {
+    width: 40%;
+    height: 5px;
+    background: #1db954;
+    cursor: pointer;
+    
+}

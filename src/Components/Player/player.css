@@ -1,0 +1,31 @@
+.player {
+    display: flex;
+    flex-direction: row;
+    background-color: #181818;
+    border-top: solid 1px #282828;
+    height: 100px;
+    color: #f8f8f8;
+}
+
+.player div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.player button {
+    background: none;
+    border: none;
+}
+.player svg {
+    fill: #f8f8f8;
+}
+
+.player svg:hover {
+    fill: #1db954;
+    cursor: pointer;
+}
+
+.player .controls {
+    width: 60%;
+    flex-direction: column;
+}
